@@ -10,9 +10,10 @@
         src = self;
 
         buildInputs = [ bluespec dejagnu gnum4 verilog perl ];
-        buildPhase = "make TEST_RELEASE=${bluespec} SYSTEMCTEST=0";
 
-        installPhase = "mkdir -p $out/; touch $out/done";
+        buildPhase = ''
+          make TEST_RELEASE=${bluespec} SYSTEMCTEST=0
+        '';
       };
   };
 }
