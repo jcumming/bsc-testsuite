@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#! /usr/bin/env perl
 
 $seed = srand ();
 @list_top = `cat top_code`;

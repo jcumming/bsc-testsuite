@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 ################################################################################
 
 # USAGE: perl compareOutput.pl  mk<foo>.v  mk<verilogGeneratedBy ExpandPorts.tcl>.v

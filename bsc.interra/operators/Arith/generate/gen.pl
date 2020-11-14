@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#! /usr/bin/env perl
 
 $seed = srand ();
 $seed = 224530 ;

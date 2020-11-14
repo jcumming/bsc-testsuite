@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#! /usr/bin/env perl
 
 @list = `cat $ARGV[0]| grep -v x`;
 
