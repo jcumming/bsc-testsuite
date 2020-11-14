@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1605248463,
+        "narHash": "sha256-Tjg4CD6I0hoYBaZhSpDaFn8fa4TW42veXmotarNx3tI=",
+        "owner": "jcumming",
+        "repo": "nixpkgs",
+        "rev": "442d1aed02bc112852e7542d0406bd78e4f72a62",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jcumming",
+        "ref": "bluespec-unstable-2020.11.04",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
