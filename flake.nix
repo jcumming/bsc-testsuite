@@ -9,7 +9,8 @@
         name = "bsc-testsuite";
         src = self;
 
-        buildInputs = [ bluespec dejagnu gnum4 verilog perl ];
+        # XXX: time is a shell builtin; figure out how to get a stdenv that has it?
+        buildInputs = [ bluespec dejagnu gnum4 verilog perl time ];
 
         buildPhase = ''
           make TEST_RELEASE=${bluespec} SYSTEMCTEST=0
