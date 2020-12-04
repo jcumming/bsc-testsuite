@@ -24,7 +24,7 @@ To build.
     nix build
 
 To update:
-    nix flake update 
+    nix flake update --update-input nixpkgs
 
 ## Requirements
 
