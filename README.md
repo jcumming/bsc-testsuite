@@ -16,6 +16,15 @@ Some testing is also available for libraries in the [bsc-contrib repository].
 [DejaGnu]: https://www.gnu.org/software/dejagnu/
 
 ---
+## NixOS changes
+
+This repo has been updated to use [nix flakes](https://nixos.wiki/wiki/Flakes). 
+
+To build.
+    nix build
+
+To update:
+    nix flake update 
 
 ## Requirements
 
